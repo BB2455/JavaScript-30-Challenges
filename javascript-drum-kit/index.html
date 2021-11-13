@@ -5,9 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
     <title>Drum Kit</title>
   </head>
   <body>
-    <h1>Drum Kit</h1>
+    <div class="keys-container">
+      <div data-key="KeyA" class="key">
+        <p>A</p>
+        <span>Clap</span>
+      </div>
+      <div data-key="KeyS" class="key">
+        <p>S</p>
+        <span>HiHat</span>
+      </div>
+      <div data-key="KeyD" class="key">
+        <p>D</p>
+        <span>Kick</span>
+      </div>
+      <div data-key="KeyF" class="key">
+        <p>F</p>
+        <span>OpenHat</span>
+      </div>
+      <div data-key="KeyG" class="key">
+        <p>G</p>
+        <span>Boom</span>
+      </div>
+      <div data-key="KeyH" class="key">
+        <p>H</p>
+        <span>Ride</span>
+      </div>
+      <div data-key="KeyJ" class="key">
+        <p>J</p>
+        <span>Snare</span>
+      </div>
+      <div data-key="KeyK" class="key">
+        <p>K</p>
+        <span>Tom</span>
+      </div>
+      <div data-key="KeyL" class="key">
+        <p>L</p>
+        <span>Tink</span>
+      </div>
+    </div>
+
+    <audio data-key="KeyA" src="sounds/clap.wav"></audio>
+    <audio data-key="KeyS" src="sounds/hihat.wav"></audio>
+    <audio data-key="KeyD" src="sounds/kick.wav"></audio>
+    <audio data-key="KeyF" src="sounds/openhat.wav"></audio>
+    <audio data-key="KeyG" src="sounds/boom.wav"></audio>
+    <audio data-key="KeyH" src="sounds/ride.wav"></audio>
+    <audio data-key="KeyJ" src="sounds/snare.wav"></audio>
+    <audio data-key="KeyK" src="sounds/tom.wav"></audio>
+    <audio data-key="KeyL" src="sounds/tink.wav"></audio>
   </body>
 </html>

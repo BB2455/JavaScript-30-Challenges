@@ -2,4 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lobster", cursive;
+}
+
+body {
+  background: #333;
+}
+
+.keys-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.key {
+  color: #fff;
+  background: #222;
+  margin: 1rem;
+  padding: 1rem 0;
+  width: 75px;
+  text-align: center;
+  gap: 0.5rem;
+  border: 1px black solid;
+  border-radius: 10px;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+  transition: all 0.1s;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
+
+span {
+  color: #ffc600;
 }
